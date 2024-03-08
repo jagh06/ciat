@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+
+body{
+    margin: 0;
+    margin: 0;
+}
+
+@media screen and (min-width:777px){
+    .nav-link {
+      padding:18px 0;
+      min-width: 50px
+    }
+    .navbar {
+      padding: 0
+    }
+  }
+  nav{
+    background-color: #FFFFFF;
+  }
+  /* ----------------------- */
+  body {
+    background-color:#eee;
+  }
+  .section-title h2 {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding-bottom: 6px;
+      color: #000;
+      letter-spacing: 0.3px;
+      padding: 0;
+  }
+  .section-title::after {
+      content: "";
+      height: 3px;
+      background: #fbb900;
+      width: 80px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+  }
+  /******/
+  /*   BX-SLIDER  */
+  /******/
+  section.client {
+    padding:4em 0em;
+    background-color: #eee;
+  
+  }
+  section.client .section-title {
+    margin-bottom: 6em;
+  }
+  .bx-controls {
+    position: relative;
+  }
+  .bx-wrapper .bx-pager {
+      text-align: center;
+      padding-top: 30px;
+  }
+  .bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+      display: inline-block;
+      zoom: 1;
+      display: inline;
+  }
+  .bx-wrapper .bx-pager.bx-default-pager a {
+      background: #666;
+      text-indent: -9999px;
+      display: block;
+      width: 10px;
+      height: 10px;
+      margin: 0 5px;
+      outline: 0;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+  }
+  
+  #iconosvg{
+    padding-left: 20px;
+   
+  }
+#estiloLetra{
+    font-family: 'Montserrat', sans-serif;
+}

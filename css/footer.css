@@ -1,0 +1,48 @@
+/* Estilo para el footer */
+footer {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+}
+
+/* Estilo para el contenedor del footer */
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+/* Estilo para las columnas del footer */
+.footer-column {
+    flex: 1 1 100px;
+    margin: 0 10px;
+}
+
+/* Estilo para los enlaces en el footer */
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilo para los encabezados del footer */
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los párrafos del footer */
+.footer-column p {
+    margin: 5px 0;
+}

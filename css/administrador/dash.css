@@ -1,0 +1,281 @@
+:root {
+  --main-bg-color: #9d0000;
+  --main-text-color: #5D84A6;
+  --second-text-color: #0F7CBF;
+  --second-bg-color: #e7e6ec;
+}
+
+.primary-text {
+  color: var(--main-text-color);
+}
+
+.second-text {
+  color: var(--second-text-color);
+}
+
+.primary-bg {
+  background-color: var(--main-bg-color);
+}
+
+.secondary-bg {
+  background-color: var(--second-bg-color);
+}
+
+.rounded-full {
+  border-radius: 100%;
+}
+/* este es el color del fondo de la pagina------------------------------------------ */
+#wrapper {
+  overflow-x: hidden;
+  background-image: linear-gradient(
+    to right,
+    #eae8e7,
+    #eff3f1,
+    #f5f5f5,
+    #fbfcfc,
+    #f5f4f1
+  );
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+#menu-toggle {
+  cursor: pointer;
+}
+
+.list-group-item {
+  border: none;
+  padding: 20px 30px;
+}
+
+.list-group-item.active {
+  background-color: transparent;
+  color: var(--main-text-color);
+  font-weight: bold;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+.btn-icon {
+
+color: #5D84A6;
+background-color: #E7E6EC;
+position: relative;
+width: 50px; /* Ancho inicial ajustado para solo mostrar el ícono */
+overflow: hidden; /* Oculta el texto fuera del ancho inicial */
+transition: width 0.5s ease; /* Suaviza la transición del ancho */
+display: flex; /* Utiliza flexbox para centrar contenido */
+justify-content: center; /* Centra horizontalmente */
+align-items: center; /* Centra verticalmente */
+border-radius: 2px 20px 30px 3px;
+}
+
+.btn-icon i {
+font-size: 1.1rem; /* Ajusta al tamaño de ícono deseado */
+}
+
+.text-hover {
+display: inline-block;
+visibility: hidden; /* Inicialmente, el texto es invisible */
+opacity: 0; /* Comienza completamente transparente */
+width: 0; /* Evita que el texto ocupe espacio */
+transition: visibility 0s linear 0.5s, opacity 0.3s ease, width 0s 0.7s; /* Asegura transiciones suaves */
+white-space: nowrap; /* Impide que el texto se envuelva */
+}
+
+.btn-icon:hover {
+color: #5D84A6;
+background-color: #E7E6EC;
+width: auto; /* Permite que el botón se expanda para ajustarse al texto */
+
+}
+
+.btn-icon:hover .text-hover {
+visibility: visible; /* Hace el texto visible */
+opacity: 1; /* Hace el texto completamente opaco */
+width: auto; /* Permite que el texto ocupe el espacio necesario */
+transition-delay: 0s; /* Elimina el retraso en la transición para que inicie de inmediato */
+}
+/* buscador................................... */
+.buscador{
+border-radius: 20px;
+
+}
+.tabla{
+padding-left: 4px;
+
+
+}.table th {
+background-color: #5D84A6;
+color: #333;
+cursor: pointer;
+}
+
+
+/* Estilos para las filas impares de la tabla */
+.table tbody tr:nth-child(odd) {
+background-color: #b8c9dc;
+}
+
+/* Estilos para las filas pares de la tabla */
+.table tbody tr:nth-child(even) {
+background-color: #bed2e3;
+cursor: pointer;
+}
+
+/* Estilos para resaltar filas al hacer hover */
+.table tbody tr:hover {
+background-color: #efefed;
+cursor: pointer;
+}
+
+.caja{
+background-color: #d0d6dc;
+margin-top: 15px;
+border-radius: 13px;
+padding-left: 10px;
+padding-right: 14px;
+}
+.bus{
+border-radius: 30px;
+border-color: #0F7CBF;
+}
+.Diseño{
+background-color: #d0d6dc;
+padding: 15px;
+margin-top: 15px;
+
+}
+.paddi{
+margin-right: 10px;
+margin-left: 10px;
+}
+
+/* boton */
+.login100-form-btn1{
+  background-color: #0F7CBF;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.login100-form-btn1:hover {
+  color: white;
+  padding: 10px;
+  background-color: #2a92d3;
+}
+.login100-form-btn2{
+  background-color: #13a505;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.login100-form-btn2:hover {
+  color: white;
+  padding: 10px;
+  background-color: #35c029;
+}
+.login100-form-btn3{
+  background-color: #ebb505;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.login100-form-btn3:hover {
+  color: white;
+  padding: 10px;
+  background-color: #dd912e;
+}
+.login100-form-btn4{
+  background-color: #eb3b05;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.login100-form-btn4:hover {
+  background-color: #e74c1d;
+  color: white;
+
+}
+/* errores */
+.mensaje-error-curp {
+  color: rgb(245, 26, 26);
+  font-size: 12px;
+  position: absolute;
+  margin-top: 5px;
+}
+
+.mensaje-error-tel {
+  color: rgb(245, 26, 26);
+  font-size: 12px;
+  position: absolute;
+  margin-top: 5px;
+  
+}
+
+.mensaje-error-nss {
+  color: rgb(245, 26, 26);
+  font-size: 12px;
+  position: absolute;
+  margin-top: 5px;
+  
+}
+
+.mensaje-error-email {
+  color: rgb(245, 26, 26);
+  font-size: 12px;
+  position: absolute;
+  margin-top: 5px;
+}
+.mensaje-error-rfc {
+  color: rgb(245, 26, 26);
+  font-size: 12px;
+  position: absolute;
+  margin-top: 5px;
+}
+/* divider */
+.divider {
+  border-top: 1px solid #616c77;
+  margin: 10px 0;
+}
+

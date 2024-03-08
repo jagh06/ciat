@@ -1,0 +1,75 @@
+body {
+    font-family: Segoe UI, Arial, Sans-Serif !important;
+}
+#formulario{
+    border-radius: 2px;
+    /* background-color: #e8eced; */
+    /* background-color: #d0d6d8; */
+    background-color: white;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}  
+#btn-accept {
+    border-radius: 15px;
+    /* background-color: #e8eced; */
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.estilop{
+    font-family:  Verdana;
+    font-size: 23px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.mensaje-error-curp {
+    color: rgb(245, 26, 26);
+    font-size: 12px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.mensaje-error-tel {
+    color: rgb(245, 26, 26);
+    font-size: 12px;
+    position: absolute;
+    margin-top: 5px;
+    
+}
+
+.mensaje-error-nss {
+    color: rgb(245, 26, 26);
+    font-size: 12px;
+    position: absolute;
+    margin-top: 5px;
+    
+}
+
+.mensaje-error-email {
+    color: rgb(245, 26, 26);
+    font-size: 12px;
+    position: absolute;
+    margin-top: 5px;
+}
+.mensaje-error-rfc {
+    color: rgb(245, 26, 26);
+    font-size: 12px;
+    position: absolute;
+    margin-top: 5px;
+}
+#mensaje-error-cp {
+    color: rgb(245, 26, 26);
+    font-size: 12px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.input-form {
+    height: 70px;
+}
